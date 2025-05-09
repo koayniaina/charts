@@ -3,7 +3,7 @@ import styles from "@/styles/Card.module.css";
 export default function Cards() {
   return (
     <div>
-      <div className="grid grid-cols-2  gap-4 w-[350px]">
+      <div className="grid grid-cols-2  gap-4">
         <div className="bg-white shadow-md rounded-lg p-2">
           <span  className={styles.text}>Revenue</span>
           <h2 className="font-bold text-center text-2xl ">$ 24.5</h2>

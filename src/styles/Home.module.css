@@ -13,9 +13,9 @@
   }
   
   .barchart{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+    /* flex-wrap: wrap; */
     width: 100%;
   }
   
@@ -36,9 +36,9 @@
   }
 
   .card{
-    /* background-color: rgb(255, 255, 255); */
+  
     margin: 1rem;
     border-radius: 4px;
     padding: .4rem;
-    /* box-shadow: 0 0px 4px .6px rgb(216, 216, 216); */
+   
   }

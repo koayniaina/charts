@@ -34,7 +34,7 @@ export function Dbarchart() {
   return (
     <main>
       <p>Double Chart</p>
-    <ChartContainer config={chartConfig} className="min-h-[200px] w-[370]">
+    <ChartContainer config={chartConfig} className="min-h-[100px]">
       <BarChart accessibilityLayer data={chartData}>
         <CartesianGrid vertical={false} />
         <YAxis tickLine={false} axisLine={false} />
