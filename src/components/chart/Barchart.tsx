@@ -1,6 +1,6 @@
 "use client";
 
-import { Bar, BarChart, CartesianGrid, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, CartesianGrid, YAxis } from "recharts";
 
 import {
   ChartConfig,
@@ -28,7 +28,7 @@ export function Barchart() {
   return (
     <main>
       <p>Barchart Simple</p>
-      <ChartContainer config={chartConfig} className="min-h-[100px]">
+      <ChartContainer config={chartConfig} >
         <BarChart data={chartData}>
           <CartesianGrid vertical={false} />
           <YAxis tickLine={false} axisLine={false} />

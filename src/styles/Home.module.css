@@ -15,7 +15,6 @@
   .barchart{
     display: grid;
     grid-template-columns: repeat(auto-fit , minmax(350px , 1fr));
-    /* flex-wrap: wrap; */
     width: 100%;
   }
   
@@ -39,6 +38,8 @@
   
     margin: 1rem;
     border-radius: 4px;
-    padding: .4rem;
+    /* box-shadow: 0 0px 4px .6px rgb(216, 216, 216); */
+    /* padding: 1rem; */
+    /* background-color: rgb(255, 255, 255); */
    
   }
